@@ -53,3 +53,6 @@ p {
     letter-spacing: 0.02em;
    
    }
+   ul, ol {
+    list-style-type: none;
+   }
