@@ -1,11 +1,28 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;;
+    color: #434455;
+    background-color:#FFFFFF;
 }
-header {
-    width: 1440px;
-    height: 72px;
+ .logo {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+
+.logo-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
 p {
     font-weight: 400;
     font-size: 16px;
