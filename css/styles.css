@@ -61,7 +61,7 @@ p {
     color:#404bbf;
    }
 
-   .page-nav .link:hover {
+   .page-nav .link:hover, .page-nav .link:focus {
     color: #404bbf;
    }
     .adress {font-style: normal;}
@@ -197,4 +197,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+}
+.botton-section {
+    background-color: #2e2f42;
 }
