@@ -97,12 +97,16 @@ p {
     cursor: pointer;
    
 }
-.order-service:hover .order-service:focus {
+.order-service:hover {
     background-color: #404BBF;
 }
 .order-service:active  {
     background-color: #404BBF;
 }
+.order-service:focus {
+    background-color:#404BBF;
+}
+
 .features-title {
     font-weight: 700;
     font-size: 36px;
