@@ -97,10 +97,10 @@ p {
     cursor: pointer;
    
 }
-.order-service:hover {
+.order-service:hover .order-service:focus {
     background-color: #404BBF;
 }
-.order-service:active .order-service:focus {
+.order-service:active  {
     background-color: #404BBF;
 }
 .features-title {
@@ -198,6 +198,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
-.botton-section {
+.button-section {
     background-color: #2e2f42;
 }
