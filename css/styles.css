@@ -1,7 +1,21 @@
+*,
+* ::before;
+* ::after {
+box-sizing: border-box;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:#FFFFFF;
+}
+
+img {
+    display: block;
+}
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
  .logo {
     font-family: "Raleway", sans-serif;
@@ -86,7 +100,9 @@ p {
    }
    ul, ol {
     list-style-type: none;
+    text-decoration: none;
    }
+
    .order-service {
     background-color: #4d5ae5;
     font-weight: 500;
@@ -204,4 +220,11 @@ color: #f4f4fd;
 }
 .button-section {
     background-color: #2e2f42;
+}
+.container {
+    max-width: 1140px;
+    padding-left: 0;
+    padding-right: 
+    margin-left:  
+    margin-right:  
 }

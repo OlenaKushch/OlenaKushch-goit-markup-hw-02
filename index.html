@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
@@ -14,8 +15,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
     
   </head>
+  <!--NAVIGATION-->
   <body>
-    <header>
+    
+    <div>
+      <div class="container-header">
       <nav>
         <a class="logo" href="./index.html">Web<span class="logo-blue">Studio</span></a>
         <ul class="page-nav">    
@@ -24,21 +28,25 @@
           <li><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
+      
       <address class="adress">
         <ul>
           <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+        </div>
     </header>
     <main>
       <!--section 1-->
+      <div class="container">
       <section class="button-section">
         <h1 class="page-title">Effective Solutions for Your Business</h1>
         <button type="button" class="order-service">Order Service</button>
       </section>      
       <!--SECTION 2-->
       <section class="features">
+        <div class="container">
         <h2 class="features-title">Features</h2>
         <ul class="features-list">
           <li>
@@ -70,9 +78,14 @@
             </p>
           </li>
         </ul>
+      </div>
+      
       </section>
+    </div>
       <!--SECTION 3-->
+      
       <section class="our-team">
+        <div class="container">
         <h2 class="our-team-title">Our Team</h2>
         <ul class="team-list">
           <li class="team-list-item">
@@ -107,9 +120,12 @@
             <p class="team-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
       <!-- SECTION 4-->
+       
       <section>
+        <div class="container">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
           <li><img src="./images/portfolio/banking.jpg" alt="banking-app" width="360" >
@@ -138,7 +154,7 @@
         </li>
         </ul>
 
-
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -147,5 +163,6 @@
         with digital marketing &amp; growth solutions.
       </p>
     </footer>
+  </div>
   </body>
 </html>
