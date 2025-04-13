@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
@@ -17,60 +17,64 @@
   </head>
   <!--NAVIGATION-->
   <body>
-    
-    <div>
-      <div class="container-header">
-      <nav>
-        <a class="logo" href="./index.html">Web<span class="logo-blue">Studio</span></a>
-        <ul class="page-nav">    
-          <li><a class="link" href="./index.html">Studio</a></li>
-          <li><a class="link" href="">Portfolio</a></li>
-          <li><a class="link" href="">Contacts</a></li>
+    <header class="page-header">
+    <div class="container container-header">
+      <a class="logo header-logo" href="./index.html">Web<span class="logo-blue">Studio</span>
+      </a>
+      <nav class="header-nav">
+        <ul class="header-nav-list">    
+          <li><a class="header-nav-link" href="./index.html">Studio</a></li>
+          <li><a class="header-nav-link" href="">Portfolio</a></li>
+          <li><a class="header-nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      
-      <address class="adress">
-        <ul>
-          <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-item"><a class="contacts-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="contacts-item"><a class="contacts-list-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
-        </div>
+      </div>
     </header>
+
     <main>
+
       <!--section 1-->
-      <div class="container">
+      
       <section class="button-section">
-        <h1 class="page-title">Effective Solutions for Your Business</h1>
+        <div class="container">
+        <h1 class="page-title">Effective Solutions <br> for Your Business</h1>
         <button type="button" class="order-service">Order Service</button>
-      </section>      
+        </div>
+      </section> 
+
       <!--SECTION 2-->
       <section class="features">
-        <div class="container">
-        <h2 class="features-title">Features</h2>
+        <div class="container container-features">
+        <h2 class="visually-hidden">Features</h2>
         <ul class="features-list">
-          <li>
+          <li class="features-item">
             <h3 class="title-three">Strategy</h3>
             <p class="features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="title-three">Punctuality</h3>
             <p class="features-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="features-list">
             <h3 class="title-three">Diligence</h3>
             <p class="features-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="features-list">
             <h3 class="title-three">Technologies</h3>
             <p class="features-text">
               Design practice focused on digital experiences. We bring forth a
@@ -157,7 +161,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+
+    <footer class="container footer">
         <a class="logo" href="./index.html">Web<span class="logo-footer">Studio</span></a>
         <p class="footer-text">Increase the flow of customers and sales for your business
         with digital marketing &amp; growth solutions.
